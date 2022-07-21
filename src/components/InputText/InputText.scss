@@ -1,0 +1,29 @@
+@import "styles/variables";
+
+.input-container {
+    position: relative;
+}
+
+.input-text {
+    background-color: $very-light-graysh-cyan;
+    border: transparent;
+    width: 100%;
+    border-radius: 5px;
+    text-align: end;
+    padding: 5px 10px 5px 30px;
+    font-size: 24px;
+    color: $very-dark-cyan;
+
+    &::placeholder {
+        color: $graysh-cyan;
+    }
+}
+
+.input-img {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 12px;
+    transform: translate(0, -50%);
+}
+
