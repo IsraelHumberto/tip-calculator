@@ -2,7 +2,7 @@
 
 ## PROJETO EM DESENVOLVIMENTO &#8987;
 
-![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Tip calculator app coding challenge](src/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
