@@ -2,7 +2,6 @@
 
 .calculator {
     background-color: $white;
-    height: 400px;
     width: 800px;
     border-radius: 20px;
     padding: 30px;
@@ -48,4 +47,17 @@
 .btn-reset {
     position: relative;
     bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .calculator {
+        flex-direction: column;
+        margin: 0 20px;
+        
+        .bill,
+        .result {
+            flex: 1 1 300px;
+        }
+    }
+
 }
