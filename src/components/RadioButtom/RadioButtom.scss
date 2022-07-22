@@ -1,0 +1,16 @@
+@import "styles/variables";
+
+.input-radio {
+    display: none;
+
+}
+.btn-radio {
+    color: $white;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: $very-dark-cyan;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}

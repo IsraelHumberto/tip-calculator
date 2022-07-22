@@ -1,0 +1,13 @@
+@import 'styles/variables';
+
+.btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    background-color: $strong-cyan;
+    color: $very-dark-cyan;
+    text-transform: uppercase;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}

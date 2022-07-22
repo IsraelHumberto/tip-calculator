@@ -1,0 +1,10 @@
+@import 'styles/variables.scss';
+
+.home {
+    background-color: $light-graysh-cyan;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
